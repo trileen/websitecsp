@@ -1,0 +1,43 @@
+.header {
+background-color:black;
+text-shadow: 2px 2px #ff0000;
+}
+.header h1 {
+    font-size: 50px;
+    word-wrap: normal;
+}
+.topnav {
+    overflow: hidden;
+}
+.topnav a {
+    float:left;
+    display:block;
+    text-decoration: none;
+}
+.topnav a:hover {
+    background-color: black;
+}
+.column {
+    float: left;
+    width: 50%;
+}
+.row: after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.card {
+text-align: center;
+padding: 16px;
+border-radius: 20px;
+}
+@media screen and (max-width: 600px) {
+    .column {
+       width: 100%;
+       display: block;
+       margin-bottom: 20px;
+    }
+}
+body {
+    background-image:linear-gradient(to right, pink, orange);
+}

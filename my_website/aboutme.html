@@ -1,0 +1,67 @@
+<!doctype html>
+	<html lang="en">
+	  <head>
+	      <link rel="stylesheet" href="style.css">
+	      <link rel="stylesheet" href="layout.css">
+	      <link rel="stylesheet" href="slideshow.css">
+	    <meta charset="utf-8">
+	    <title>Portfolio</title>
+	  </head>
+	  <body>
+	      <div class="topnav">
+    <a href="index.html">HOME</a>
+    <a href="portfolio.html">PORTFOLIO</a>
+     <a href="aboutme.html">ABOUT ME</a>
+     </div>
+     <div class="header">
+    <h1 style="font-family:verdana;"><center>ABOUT</center></h1>
+    </div>
+    <div class="row">
+        <div class="column">
+            <style>
+                p1, h1, p2 {
+                    padding-left: 100px;
+                }
+            </style>
+            <p1>my name is Trileen, and I'm a senior at RBHS</p1>
+            <h1>things I enjoy:</h1>
+            <p2>dance, art, art history, the rain!, uhm</p2>
+        </div>
+    </div>
+    <div class="column">
+        <center>
+        <img class="mySlides" src="images/compsci1.JPG" height="500">
+        <img class="mySlides" src="images/compsci2.JPG" height="500">
+        <img class="mySlides" src="images/compsci3.JPG" height="500">
+        <img class="mySlides" src="images/compsci4.JPG" height="500">
+        <img class="mySlides" src="images/compsci6.JPG" height="500">
+        </center>
+        <br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+        <script>
+            var slideIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1}
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 2500);
+}
+        </script>
+    </div>
+	  </body>
+	</html>

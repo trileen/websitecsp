@@ -1,0 +1,47 @@
+h1 {
+    font-family:arial;
+    color:white;
+}
+p1 {
+    font-family:arial;
+    color:white;
+    font-size: 20px;
+}
+body {
+    background-image:linear-gradient(to right, pink, orange);
+}
+a:link {
+    text-decoration:none;
+    background-color:lightgrey;
+    opacity: 0.75;
+    text-align:center;
+    padding: 5px 20px;
+    font-family:arial;
+    font-weight:bold;
+    font-size:12px;
+    border-style:solid;
+}
+a:hover {
+    color:white;
+}
+p2 {
+    font-family:arial;
+    color:white;
+    font-size: 20px;
+}
+a {
+    display:block;
+    margin: 15px 15px 15px 15px;
+}
+h2 {
+    font-family: arial;
+    color: white;
+    text-align: center;
+    font-size: 35px
+}
+p3 {
+    font-family: arial;
+    text-align: center;
+    color: white;
+    font-size: 20px
+}
