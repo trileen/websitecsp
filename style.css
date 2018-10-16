@@ -11,7 +11,8 @@ body {
     background-image:linear-gradient(to right, pink, orange);
 }
 a:link {
-    color:black;
+    color:white;
+    background-color: lightpink;
     text-decoration:none;
     opacity: 0.75;
     text-align:center;
@@ -22,7 +23,7 @@ a:link {
     border-style:solid;
 }
 a:hover {
-    color:white;
+    color:palevioletred;
 }
 p2 {
     font-family:arial;
