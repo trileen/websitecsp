@@ -24,6 +24,7 @@ a:link {
 }
 a:hover {
     color:palevioletred;
+    cursor:pointer;
 }
 p2 {
     font-family:arial;
